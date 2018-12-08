@@ -36,7 +36,6 @@ html {
   font-weight: 600;
   color: #ffffff;
 }
-
 .lead {
   font-size: 25px;
   font-family: "Open Sans", sans-serif;
@@ -59,7 +58,9 @@ html {
 .wi-strong-wind {
   padding-bottom: 12px;
 }
-
+.card-text{
+  text-transform: capitalize;
+}
 @media only screen and (max-width: 1050px) {
   .container{
       width: 100%;
