@@ -1,62 +1,70 @@
-html{
-	height: 100%;
-	 background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(200, 54, 54, 1.5); 
-
+html {
+  height: 100%;
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(200, 54, 54, 1.5);
 }
-.jumbotron{
-	height: 100%;
-   background: rgb(200, 54, 54); /* This is for ie8 and below */
-   background: rgba(200, 54, 54, 1.5); 
-   text-align: center;
+.jumbotron {
+  height: 100%;
+  background: rgb(200, 54, 54); /* This is for ie8 and below */
+  background: rgba(200, 54, 54, 1.5);
+  text-align: center;
 }
 .fullheight.jumbotron {
   position: relative;
   background-size: cover;
-  min-height:100vh;
+  min-height: 100vh;
   margin-bottom: 0;
 }
-.container{
-	width: 50%;
-	margin: 0 auto;
-	padding: 20px;
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
 }
 #location {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
-	padding-bottom: 25px;
-	color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding-bottom: 25px;
+  color: #ffffff;
 }
-#icon{
-	padding-bottom: 10px;
-	color: #ffffff;
+#icon {
+  padding-bottom: 10px;
+  color: #ffffff;
 }
-#time{
-	font-size: 25px;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 600;
-	color: #ffffff;
+#time {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
 }
 
-.lead{
-	font-size: 25px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #ffffff;
+.lead {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
 }
-.card{
-	padding: 15px;
-	width: 60%; 
-	background-color: #414345;
-	color: #ffffff;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 600;
-	color: #ffffff;
+.card {
+  padding: 15px;
+  width: 60%;
+  background-color: #414345;
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #ffffff;
 }
-.wi-humidity{
-	padding-bottom: 10px;
+.wi-humidity {
+  padding-bottom: 10px;
 }
-.wi-strong-wind{
-	padding-bottom: 12px;
+.wi-strong-wind {
+  padding-bottom: 12px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .container{
+      width: 100%;
+  }
+    .card {
+    width: 100%;
+  }
 }
