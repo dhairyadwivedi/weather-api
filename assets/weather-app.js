@@ -16,7 +16,7 @@ function showPosition(position){
 
     var dt = new Date();
     var month = dt.getMonth()+1;
-    var time = dt.getDate() + "/" + month + "/" + dt.getFullYear() + "     " + dt.getHours() + ":" + dt.getMinutes();
+    var time = dt.getDate() + "/" + month + "/" + dt.getFullYear();
  	$("#time").html(time);
     
     if(data.weather[0].description.indexOf("haze") !== -1){
