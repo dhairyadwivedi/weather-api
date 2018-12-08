@@ -19,6 +19,10 @@ function showPosition(position){
     var time = dt.getDate() + "/" + month + "/" + dt.getFullYear() + "     " + dt.getHours() + ":" + dt.getMinutes();
  	$("#time").html(time);
     
+    if(data.weather[0].description.indexOf("haze") !== -1){
+         $("#icon").html("<i class='wi wi-day-haze' style='font-size: 7em'></i>");
+    }	
+	  
     if(data.weather[0].description.indexOf("clouds")!== -1){
       $("#icon").html("<i class='wi wi-day-cloudy' style='font-size: 7em'></i>");  
       $(".jumbotron").css('background','linear-gradient(to bottom, #ece9e6, #ffffff)'); 
